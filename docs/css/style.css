@@ -1,5 +1,5 @@
 body{
-  font-family:Verdana,sans-serif;
+  font-family: 'Hannotate TC','Andale Mono','Verdana',sans-serif;
   letter-spacing: 0.1em;
 }
 
@@ -12,35 +12,78 @@ li {
 }
 
 #page{
-    width: 1080px;
+    max-width: 960px;
+    min-width: 480px;
     background-color: rgb(210, 210, 210);
-    font-size: 14px;
+    font-size: 18px;
     color:dimgrey;
-    margin: 50px auto;
+    margin: 10px auto;
+}
+
+#page h1{
+  padding: 0.1em;
+  color:#bbbbbb;
+  background: #002FA7;
+  border-bottom: solid 3px #103FB7;
+}
+#page h2{
+  font-size:145%;
+  padding: 0.1em;
+  color: #FFD700;
+  background: #002FA7;
+  border-bottom: solid 3px #102FE7;
+}
+#page h3{
+  font-size:135%;
+  padding: 0.1em;
+  color: #002FA7;
+  background: #FFD700;
+  border-bottom:solid 3px #103FB7;
+}
+#page h4{
+  font-size:130%;
+  padding: 0.1em;
+  color: #002FA7;
+  border-bottom: double 3px #103FB7;
+}
+#page h5{
+  font-size:125%;
+  padding: 0.1em;
+  color: #002FA7;
+  border-bottom: solid 1px #909FB7;
+}
+#page h6{
+  font-size:120%;
+  padding: 0.1em;
+  color: #002FA7;
+  border-bottom: dashed 3px #103FB7;
 }
 
 #title {
-  padding: 40px 20px;
-  background-color: rgb(230, 230, 230);
+  overflow: hidden;
+  width:100%;
+}
+#title img{
+  width: 100%;
 }
 #navi{
-  width: 1080px;
-  overflow: hidden+
+  width: 100%;
 }
 #navi p{
   float: left;
-  width:150px;
-  margin-right:1px;
+  width:20%;
   text-align: center;
   vertical-align: middle;
-  font-size: 14px;
+  font-size: 20px;
+  margin: 0px;
 }
+
 #navi p a{
   display: block;
   padding: 14px;
-  height: 17px;
-  
+  height: 20px;
 }
+
 p.navi a{
   background-color: aqua;
 }
@@ -48,7 +91,11 @@ p.current a{
   background-color:darkblue;
   color:coral;
 }
-
+#mainvisual{
+}
+#mainvisual img{
+  width: 100%;
+}
 #footer{
   clear:both;
 }
@@ -74,4 +121,88 @@ p.current a{
   clear:both;
   padding: 14px;
   margin: 14px;
+}
+#contents{
+  clear: both;
+  background-color: azure;
+  padding: 20px;
+  margin: 20px;
+}
+#contents h1{
+  font-size: 20px;
+}
+#contents p{
+  font-size: 16px
+}
+#list{
+  clear: both;
+  background-color: azure;
+  padding: 14px;
+  margin: 14px;
+}
+#list ul{
+  padding: 14px;
+  margin: 14px;
+}
+code{
+  font-family: 'Andale Mono','Courier','ＭＳ ゴシック',monospace;
+  overflow:auto;
+  resize: horizontal;
+  font-size: 1.3em;
+}
+pre{
+  overflow: scroll;
+  margin: 0px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
+}
+#homecontents{
+  
+}
+#homecontents h1{
+  color: black;
+  background-color:azure;
+  margin: 2px;
+}
+#homecontents h2{
+  color: black;
+  background-color: aliceblue;
+  margin:5px;
+}
+
+#profile {
+  letter-spacing: 0em;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  font-weight: bold;
+  font-size: 100%;
+  color: #101060;
+  background: #EEEEEE;
+  border: solid 4px #002FA7;
+  border-radius: 30px;
+}
+
+#profile h2{
+  margin-left: 0.5em;
+  font-size: 100%;
+}
+#profile h3{
+  margin-left: 1.0em;
+  font-size: 100%;
+}
+#profile h4{
+  margin-left: 1.5em;
+  font-size: 100%;
+}
+#profile p {
+  margin: 0; 
+  padding: 0;
+  margin-left: 2.0em;
+  font-size: 0.9em;
+  letter-spacing: 0em;
+}
+.right{
+  text-align: right;
+}
+.center{
+  text-align: center;
 }
