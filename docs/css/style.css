@@ -1,6 +1,8 @@
 body{
   font-family: 'Andale Mono','Hannotate TC','Wawati SC','Copperplate','Courier','Arial','Verdana',sans-serif;
   letter-spacing: 0.1em;
+  margin:0px:
+  overflow-y: scroll;
 }
 
 body a{
@@ -17,7 +19,7 @@ li {
     background-color: rgb(210, 210, 210);
     font-size: 18px;
     color:dimgrey;
-    margin: 10px auto;
+    margin:0px;
 }
 
 #page h1{
